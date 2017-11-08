@@ -69,9 +69,44 @@ img{
   width: auto;
 }
 
+.sidebar {
+  background-color: #384047;
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  bottom: 0px;
+  width: 300px;
+  text-align: center;
+
+}
+
+.sidebar ul {
+  list-style: none;
+  padding-left: 0px;
+}
+.sidebar li {
+  margin-top:50px;
+  margin-bottom: 50px;
+}
+
+.sidebar a {
+  text-decoration: none;
+  font-size: 22px;
+  color:#788188;
+}
+
+.sidebar a:hover {
+  color: #1178b2;
+  font-weight: 900;
+}
+.sidebar .fa {
+  font-size: 50px;
+}
+
 .container {
   width: 540px;   /* This sets the width */
-  margin: 0 auto; /* This automatically sets left/right margins */
+  margin: 0 auto;
+  margin-left: 300px; /* This automatically sets left/right margins */
 }
 
 
@@ -148,7 +183,7 @@ img{
 }
 
 .fa{
-  font-size: 25px;
+  font-size: 30px;
 }
 
 
